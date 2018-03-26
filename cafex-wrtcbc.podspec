@@ -4,17 +4,17 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cafex-wrtcbc'
-  s.version          = '63.1'
+  s.version          = '63.4'
   s.summary          = 'CafeX customized Web RTC stack based on the official repo'
 
   s.description      = 'Audio/Video stack submodule used by several CafeX Communications applications.'
 
   s.homepage         = 'https://www.justchimein.com/en/'
-  s.license          = { :type => 'MIT', :file => 'WebRTC.framework/LICENSE.md' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           = { 'CafeX Communications' => 'support@cafex.com' }
 
   s.source           = { 
-    :http => 'https://assets.cafex.com/meetings-cocoapods/wrtcbc/' + s.version.to_s + '/WebRTC.framework.zip' 
+    :http => 'https://assets.cafex.com/meetings-cocoapods/wrtcbc/' + s.version.to_s + '/CafeX-WRTCBC.zip' 
   }
   s.vendored_frameworks = 'WebRTC.framework'
 
