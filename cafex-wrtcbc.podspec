@@ -4,12 +4,12 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cafex-wrtcbc'
-  s.version          = '63.4'
+  s.version          = '64.1'
   s.summary          = 'CafeX customized Web RTC stack based on the official repo'
 
   s.description      = 'Audio/Video stack submodule used by several CafeX Communications applications.'
 
-  s.homepage         = 'https://www.justchimein.com/en/'
+  s.homepage         = 'https://www.cafexmeetings.com/'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           = { 'CafeX Communications' => 'support@cafex.com' }
 
