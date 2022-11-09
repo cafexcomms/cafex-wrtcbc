@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cafex-wrtcbc'
-  s.version          = '107.1'
+  s.version          = '107.2'
   s.summary          = 'CafeX customized Web RTC stack based on the official repo'
 
   s.description      = 'Audio/Video stack submodule used by several CafeX Communications applications.'
