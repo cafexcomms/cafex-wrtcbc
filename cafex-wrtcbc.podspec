@@ -4,7 +4,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'cafex-wrtcbc'
-  s.version          = '79.1'
+  s.version          = '107.1'
   s.summary          = 'CafeX customized Web RTC stack based on the official repo'
 
   s.description      = 'Audio/Video stack submodule used by several CafeX Communications applications.'
@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
   s.source           = { 
     :http => 'https://assets.cafex.com/meetings-cocoapods/wrtcbc/' + s.version.to_s + '/CafeX-WRTCBC.zip' 
   }
-  s.vendored_frameworks = 'WebRTC.framework'
+  s.vendored_frameworks = 'WebRTC.xcframework'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '12.0'
 
   s.requires_arc = true
 end
